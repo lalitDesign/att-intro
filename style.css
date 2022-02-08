@@ -226,7 +226,7 @@
         }
 
             .header_mapfix_img{
-        width: 33%!important;height: 50%!important; position: fixed;z-index: 99; top: 75%;left: 50%;transform: translate(-50%,-75%);
+        width: 80%!important;height: 50%!important; position: fixed;z-index: 99; top: 75%;left: 50%;transform: translate(-50%,-75%);
     }
     .header_mapfix_logo{
         position: fixed; top: -1%;left: -5%;    
