@@ -293,7 +293,18 @@
     font-size: 1.2rem;
 }
     .desk-home-owl2-car .owl-nav{
-        display: none!important;
+     display: none!important;
+    }
+    .desk-home-owl2-car .owl-dots{
+     bottom: 0;
+    }
+    .clock{
+     font-size: 2rem;
+     bottom: 9%;
+    }
+    #curr_date{
+     font-size: 2rem;
+     bottom: 5%;
     }
 
      @keyframes run {
