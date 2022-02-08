@@ -238,18 +238,38 @@
         top: 20%;left: 50%;    
     }
 
+    .link_one{
+        font-size: 1.3rem;text-shadow: 3px 3px black;
+    }
+    .link_two{
+     font-size: 1.3rem;text-shadow: 3px 3px black;
+    }
+    .link_three{
+        font-size: 1.3rem;text-shadow: 3px 3px black;
+    }
+    .link_four{
+        font-size: 1.3rem;text-shadow: 3px 3px black;        
+    }
+    .link_five{
+        font-size: 1.3rem;text-shadow: 3px 3px black;        
+    }
+    .link_six{
+        font-size: 1.3rem;text-shadow: 3px 3px black;        
+    }
+
     .link_seven{
-        bottom: 21%; right: 10%;        
+        bottom: 21%; right: 10%;font-size: 1.3rem;text-shadow: 3px 3px black;        
     }
     .link_eight{
-        bottom: 35%; right: 10%;        
+        bottom: 35%; right: 10%;font-size: 1.3rem;text-shadow: 3px 3px black;        
     }
     .link_nine{
-        bottom: 40%; right: 10%;        
+        bottom: 40%; right: 10%;font-size: 1.3rem;text-shadow: 3px 3px black;        
     }
     .link_ten{
-        bottom: 51%; right: 10%;        
+        bottom: 51%; right: 10%;font-size: 1.3rem;text-shadow: 3px 3px black;        
     }
+
 
       @keyframes run {
         0% {
@@ -299,5 +319,7 @@
             bottom: 15%;   
         }
       }
+
+
 
       }
