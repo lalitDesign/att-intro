@@ -218,3 +218,86 @@
           bottom: 0;
           background: rgba(0, 0, 0, 0.5)!important;
       }
+
+
+      @media only screen and (max-width: 768px){
+        html{
+            font-size: 13px;
+        }
+
+            .header_mapfix_img{
+        width: 33%!important;height: 50%!important; position: fixed;z-index: 99; top: 75%;left: 50%;transform: translate(-50%,-75%);
+    }
+    .header_mapfix_logo{
+        position: fixed; top: -1%;left: -5%;    
+    }
+    .header_mapfix_head{
+        top: 12%;left: 50%;font-size: 1.8rem;    
+    }
+    .header_mapfix_subhead{
+        top: 20%;left: 50%;    
+    }
+
+    .link_seven{
+        bottom: 21%; right: 10%;        
+    }
+    .link_eight{
+        bottom: 35%; right: 10%;        
+    }
+    .link_nine{
+        bottom: 40%; right: 10%;        
+    }
+    .link_ten{
+        bottom: 51%; right: 10%;        
+    }
+
+      @keyframes run {
+        0% {
+          /* transform: translateY(-25%); */
+          top: -25%;
+        }
+        50% {
+            /* transform: translateY(5%);    */
+            top: 12%;
+        }
+      }
+
+      @keyframes run2 {
+        0% {
+          /* transform: translateX(20%); */
+          top: -15%;
+        }
+        50% {
+            /* transform: translateX(-50%);    */
+            top: 20%;
+        }
+      }
+
+      @keyframes run4 {
+        0% {
+          right: -23%;
+        }
+        50% {
+            right: 10%;   
+        }
+      }
+
+      @keyframes run5 {
+        0% {
+          top: -2%;
+        }
+        50% {
+            top: 30%;   
+        }
+      }
+
+      @keyframes run6 {
+        0% {
+          bottom: -2%;
+        }
+        50% {
+            bottom: 15%;   
+        }
+      }
+
+      }
