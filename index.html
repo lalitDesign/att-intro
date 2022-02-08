@@ -62,11 +62,13 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
       <a href="https://attarmenia.com/usefulladdress/tourismhomepage?p=1" class="link_three wow_left">Tourism and Entertainment</a>
       <a href="https://attarmenia.com/index/photovideolist?p=1&id=PHOTO&share=1" class="link_four wow_left">Music and Dance</a>
       <a href="https://attarmenia.com/photovideocook/maincooklist?p=1&id=GASTC" class="link_five wow_left">Its Gastronomy and its Vineyards</a>
-      <a href="https://attarmenia.com/usefulladdress/tourismhomepage?p=1om/index/photovediolist?p=1&id=PHOTO" class="link_six wow_left">Land of varied landscapes and </br> historical riches(Photo, Vedios) </a>
+      <a href="https://attarmenia.com/index/photovideolist?p=1&id=PHOTO" class="link_six wow_left">Land of varied landscapes and </br> historical riches(Photo, Vedios) </a>
       <a href="https://attarmenia.com/usefulladdress/singlehealth?ads=444" class="link_seven wow_right">Useful link(hot links...)</a>
       <a href="https://attarmenia.com/usefulladdress/transporthomepage?p=1" class="link_eight wow_right">Transport</a>
       <a href="https://attarmenia.com/usefulladdress/hotelshomepage?p=1" class="link_nine wow_right">Useful address(Hotels, Restaurants)</a>
       <a href="https://attarmenia.com/ecommerce/realestatehomepage?p=1" class="link_ten wow_right">e_Commerce (Auto Moto, Real Estate...)</a>
+      <div id="curr_date"></div>
+      <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
       </div>
     
 
@@ -118,5 +120,48 @@ $('.desk-home-owl2-car').owlCarousel({
       }
     })
 </script>
+
+<script>
+  function showTime(){
+    var date = new Date();
+    var h = date.getHours();
+    var m = date.getMinutes(); 
+    var s = date.getSeconds(); 
+    var session = "AM";
+    
+    if(h == 0){
+        h = 12;
+    }
+    
+    if(h > 12){
+        h = h - 12;
+        session = "PM";
+    }
+    
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+    
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+    
+    setTimeout(showTime, 1000);
+    
+}
+
+showTime();
+
+// var dt = new Date();
+// document.getElementById('curr_date').innerHTML=dt;
+
+let dateObj = new Date();
+            let month = String(dateObj.getMonth() + 1).padStart(2, '0');
+            let day = String(dateObj.getDate()).padStart(2, '0');
+            let year = dateObj.getFullYear();
+            let output = day + '/' + month + '/' + year;
+            document.getElementById('curr_date').innerHTML = output;
+</script>
+
 </body>
 </html>

@@ -8,6 +8,26 @@
     z-index: 100000000!important;
 } */
 
+.clock{
+     font-size: 3rem;
+     width: auto;
+     text-align: center;
+     position: absolute;
+     bottom: 8%;
+     left: 2%;
+     z-index: 100;
+     color: #fff;
+    }
+    #curr_date{
+     font-size: 3rem;
+     width: auto;
+     text-align: center;
+     position: absolute;
+     bottom: 0;
+     left: 2%;
+     z-index: 100;
+     color: #fff;
+    }
 .desk-home-owl2-car .owl-nav button:hover{
     color: #000!important;
     background: transparent!important;
@@ -232,7 +252,7 @@
         position: fixed; top: -1%;left: -5%;    
     }
     .header_mapfix_head{
-        top: 12%;left: 50%;font-size: 1.9rem;    
+        top: 11%;left: 50%;font-size: 1.9rem;    
     }
     .header_mapfix_subhead{
         top: 20%;left: 50%;    
@@ -270,7 +290,7 @@
 .link_one, .link_two, .link_three, .link_four, .link_five, .link_six, .link_seven, .link_eight, .link_nine, .link_ten{
     max-width: 150px;
     word-wrap: break-word;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
     .desk-home-owl2-car .owl-nav{
         display: none!important;
@@ -281,7 +301,7 @@
           top: -25%;
         }
         50% {
-            top: 12%;
+            top: 11%;
         }
       }
 
