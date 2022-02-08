@@ -79,16 +79,16 @@
         position: fixed; bottom: 55%; left: 10%;z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;        
     }
     .link_seven{
-        position: fixed; bottom: 25%; right: 12%;z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;        
+        position: fixed;text-align: right; bottom: 25%; right: 12%;z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;        
     }
     .link_eight{
-        position: fixed; bottom: 35%; right: 12%;z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;        
+        position: fixed;text-align: right; bottom: 35%; right: 12%;z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;        
     }
     .link_nine{
-        position: fixed; bottom: 45%; right: 12%;z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;        
+        position: fixed;text-align: right; bottom: 45%; right: 12%;z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;        
     }
     .link_ten{
-        position: fixed; bottom: 55%; right: 12%;z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;        
+        position: fixed;text-align: right; bottom: 55%; right: 12%;z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;        
     }
     .header a:hover{
         color: white;
@@ -226,72 +226,80 @@
         }
 
             .header_mapfix_img{
-        width: 80%!important;display:none;height: 50%!important; position: fixed;z-index: 99; top: 75%;left: 50%;transform: translate(-50%,-75%);
+        width: 80%!important;height: 40%!important; position: fixed;z-index: 99; top: 75%;left: 50%;transform: translate(-50%,-75%);
     }
     .header_mapfix_logo{
         position: fixed; top: -1%;left: -5%;    
     }
     .header_mapfix_head{
-        top: 12%;left: 50%;font-size: 1.8rem;    
+        top: 12%;left: 50%;font-size: 1.9rem;    
     }
     .header_mapfix_subhead{
         top: 20%;left: 50%;    
     }
 
-    .link_one{
-        font-size: 1.35rem;bottom: 12%;       
-    }
     .link_two{
-        font-size: 1.35rem;        
+        top: 28%;       
     }
     .link_three{
-        font-size: 1.35rem;        
+        left: 2%;       
     }
     .link_four{
-        font-size: 1.35rem;        
+        left: 2%;        
     }
     .link_five{
-        font-size: 1.35rem;        
+        left: 2%;        
     }
     .link_six{
-        font-size: 1.35rem;        
+        left: 2%;        
     }
     .link_seven{
-        bottom: 21%; right: 10%;font-size: 1.35rem;        
+        right: 2%;       
     }
     .link_eight{
-        bottom: 30%; right: 10%;font-size: 1.35rem;        
+        right: 2%;        
     }
     .link_nine{
-        bottom: 40%; right: 10%;font-size: 1.35rem;        
+        right: 2%;        
     }
     .link_ten{
-        bottom: 51%; right: 10%;font-size: 1.35rem;       
+        right: 2%;       
     }
 
+
+.link_one, .link_two, .link_three, .link_four, .link_five, .link_six, .link_seven, .link_eight, .link_nine, .link_ten{
+    max-width: 150px;
+    word-wrap: break-word;
+    font-size: 1.1rem;
+}
     .desk-home-owl2-car .owl-nav{
         display: none!important;
     }
 
-      @keyframes run {
+     @keyframes run {
         0% {
-          /* transform: translateY(-25%); */
           top: -25%;
         }
         50% {
-            /* transform: translateY(5%);    */
             top: 12%;
         }
       }
 
       @keyframes run2 {
         0% {
-          /* transform: translateX(20%); */
           top: -15%;
         }
         50% {
-            /* transform: translateX(-50%);    */
             top: 20%;
+        }
+      }
+
+      @keyframes run3 {
+        0% {
+          left: -16%;
+        }
+        50% {
+            left: 2%;   
         }
       }
 
@@ -300,7 +308,7 @@
           right: -23%;
         }
         50% {
-            right: 10%;   
+            right: 2%;   
         }
       }
 
@@ -309,17 +317,9 @@
           top: -2%;
         }
         50% {
-            top: 30%;   
+            top: 28%;   
         }
       }
 
-      @keyframes run6 {
-        0% {
-          bottom: -2%;
-        }
-        50% {
-            bottom: 12%;   
-        }
-      }
 
       }
