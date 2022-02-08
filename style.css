@@ -61,10 +61,10 @@
         position: fixed; top: 15%;left: 50%;transform: translateX(-50%);z-index: 99;font-weight: 500; color: #FFF;width: 100%;text-align: center;    
     }
     .link_one{
-        position: fixed; bottom: 15%;left: 50%;transform: translateX(-50%);z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;
+        position: fixed; text-align: center; bottom: 15%;left: 50%;transform: translateX(-50%);z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;
     }
     .link_two{
-        position: fixed; top: 30%;left: 50%;transform: translateX(-50%);z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;
+        position: fixed; text-align: center; top: 30%;left: 50%;transform: translateX(-50%);z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;
     }
     .link_three{
         position: fixed; bottom: 25%; left: 10%;z-index: 99;font-weight: 500; color: #FFF;font-size: 1.1rem;
@@ -226,7 +226,7 @@
         }
 
             .header_mapfix_img{
-        width: 80%!important;height: 50%!important; position: fixed;z-index: 99; top: 75%;left: 50%;transform: translate(-50%,-75%);
+        width: 80%!important;display:none;height: 50%!important; position: fixed;z-index: 99; top: 75%;left: 50%;transform: translate(-50%,-75%);
     }
     .header_mapfix_logo{
         position: fixed; top: -1%;left: -5%;    
@@ -239,37 +239,39 @@
     }
 
     .link_one{
-        font-size: 1.3rem;text-shadow: 3px 3px black;
+        font-size: 1.35rem;bottom: 12%;       
     }
     .link_two{
-     font-size: 1.3rem;text-shadow: 3px 3px black;
+        font-size: 1.35rem;        
     }
     .link_three{
-        font-size: 1.3rem;text-shadow: 3px 3px black;
+        font-size: 1.35rem;        
     }
     .link_four{
-        font-size: 1.3rem;text-shadow: 3px 3px black;        
+        font-size: 1.35rem;        
     }
     .link_five{
-        font-size: 1.3rem;text-shadow: 3px 3px black;        
+        font-size: 1.35rem;        
     }
     .link_six{
-        font-size: 1.3rem;text-shadow: 3px 3px black;        
+        font-size: 1.35rem;        
     }
-
     .link_seven{
-        bottom: 21%; right: 10%;font-size: 1.3rem;text-shadow: 3px 3px black;        
+        bottom: 21%; right: 10%;font-size: 1.35rem;        
     }
     .link_eight{
-        bottom: 35%; right: 10%;font-size: 1.3rem;text-shadow: 3px 3px black;        
+        bottom: 30%; right: 10%;font-size: 1.35rem;        
     }
     .link_nine{
-        bottom: 40%; right: 10%;font-size: 1.3rem;text-shadow: 3px 3px black;        
+        bottom: 40%; right: 10%;font-size: 1.35rem;        
     }
     .link_ten{
-        bottom: 51%; right: 10%;font-size: 1.3rem;text-shadow: 3px 3px black;        
+        bottom: 51%; right: 10%;font-size: 1.35rem;       
     }
 
+    .desk-home-owl2-car .owl-nav{
+        display: none!important;
+    }
 
       @keyframes run {
         0% {
@@ -316,10 +318,8 @@
           bottom: -2%;
         }
         50% {
-            bottom: 15%;   
+            bottom: 12%;   
         }
       }
-
-
 
       }
